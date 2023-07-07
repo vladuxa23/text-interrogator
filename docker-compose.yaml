@@ -1,0 +1,7 @@
+version: '3'
+services:
+  text-interrogator-service:
+    image: text-interrogator
+    restart: always
+    ports:
+      - 3030:3040
